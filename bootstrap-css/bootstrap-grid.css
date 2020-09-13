@@ -84,6 +84,11 @@ html {
   padding-left: 15px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
