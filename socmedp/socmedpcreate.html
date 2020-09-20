@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link href="https://ZennithYattare.github.io/socmedp/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://ZennithYattare.github.io/socmedp/css/bootstrap.css" rel="stylesheet">
 		<style>
 			.bd-placeholder-img 
 			{
@@ -27,6 +27,19 @@
 			{
 				border-radius: 50%!important;
 			}
+			.image
+			{
+				width: 100%;
+				height: auto;
+			}
+			.img 
+			{
+				height: 100%;
+				width: 100%;
+				max-height: 100vh;
+				max-width: 100vh;
+				object-fit: contain;
+			}
 		</style>
 
 <link href="https://ZennithYattare.github.io/socmedp/css/album.css" rel="stylesheet">
@@ -38,7 +51,7 @@
       <a href="https://getbootstrap.com/docs/4.5/examples/album/#" class="navbar-brand d-flex align-items-center">
         <strong>Click Media</strong>
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
@@ -63,16 +76,15 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1Z4MCaLCmN-KM7TWzVC6ep9P2SIWOM25d">
-            <div class="card-body">
-              <p class="card-text">expertphotography.com</p>
-              <div class="d-flex justify-content-between align-items-center">
+	<div class="container">
+	<div class="card-columns">
+	  <div class="card">
+		<div class="card-header">Sausage</div>
+		<img src="https://images.unsplash.com/photo-1600594772709-2506295453e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1073&q=80" class="card-img-top">
+		<div class="card-body">
+		  <h5 class="card-title">Card title that wraps to a new line</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		  <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
@@ -80,15 +92,14 @@
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-             <img src="https://drive.google.com/thumbnail?id=1ln7F458Y2n1d402YDNzf7BSQOJLTUqEK">
-            <div class="card-body">
-              <p class="card-text">creativelive.com</p>
-              <div class="d-flex justify-content-between align-items-center">
+		</div>
+	  </div>
+	  <div class="card">
+	  <div class="card-header">Sausage</div>
+	  <img src="https://images.unsplash.com/photo-1600517928335-ed72d9459b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" class="card-img-top">
+		<div class="card-body">
+		  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
@@ -96,127 +107,55 @@
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1nmCkiaFQQUEnw0sKA6WJiN_HvvyOZsyU">
-            <div class="card-body">
-              <p class="card-text">pinterest.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1yqMq5kI4Y2EYdeYE93K3R6QTsBEaWLiG">
-            <div class="card-body">
-              <p class="card-text">pixinfocus.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1T4wrw8zUQtWNR6bzjuUVWZN1qUu89nm3">
-            <div class="card-body">
-              <p class="card-text">expertphotography.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1dWngOGj4j5wAnFqO7e16cSnu4hBCpvis">
-            <div class="card-body">
-              <p class="card-text">pixinfocus.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1FT_N0lCHP91zkRFxRJ7bOCqSo1TU-Do9">
-            <div class="card-body">
-              <p class="card-text">expertphotography.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=1FLEQAotAFwbRdayMaibCANW3gtIp2xvN">
-            <div class="card-body">
-              <p class="card-text">fstoppers.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://drive.google.com/thumbnail?id=107ndd4iznRBs-WBV_AoanSvYU0ScSSpA">
-            <div class="card-body">
-              <p class="card-text">favim.com</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Comment</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+		</div>
+	  </div>
+	  <div class="card">
+		<img src="https://images.unsplash.com/photo-1600509737644-aa99045ffa18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		</div>
+	  </div>
+	  <div class="card bg-primary text-white text-center p-3">
+		<blockquote class="blockquote mb-0">
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+		  <footer class="blockquote-footer text-white">
+			<small>
+			  Someone famous in <cite title="Source Title">Source Title</cite>
+			</small>
+		  </footer>
+		</blockquote>
+	  </div>
+	  <div class="card text-center">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+		  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		</div>
+	  </div>
+	  <div class="card">
+		<img src="..." class="card-img-top" alt="...">
+	  </div>
+	  <div class="card p-3 text-right">
+		<blockquote class="blockquote mb-0">
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <footer class="blockquote-footer">
+			<small class="text-muted">
+			  Someone famous in <cite title="Source Title">Source Title</cite>
+			</small>
+		  </footer>
+		</blockquote>
+	  </div>
+	  <div class="card">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+		  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		</div>
+	  </div>
+	</div>
+	</div>
 	</main>
 
 		<footer class="text-muted">
