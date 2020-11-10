@@ -36,6 +36,45 @@
 			{
 				color: #FAFAFA;
 			{
+			
+			body {
+  				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+  				overflow: hidden;
+  				background-color: #333;
+  				position: relative;
+			}
+
+			.topnav #myLinks {
+  				display: none;
+			}
+
+			.topnav a {
+  				color: white;
+  				padding: 14px 16px 14px 16px;
+  				text-decoration: none;
+  				font-size: 17px;
+  				display: block;
+			}
+
+			.topnav a.icon {
+  				background: black;
+  				display: block;
+  				position: absolute;
+  				right: 0;
+  				top: 0;
+			}
+
+			.topnav a:hover {
+  				background-color: #ddd;
+  				color: black;
+			}
+
+			.active {
+  				color: white;
+			}	
 		</style>
 	</head>
   
@@ -48,12 +87,37 @@
 					<img class="mr-2" height="40px" src="https://raw.githubusercontent.com/ZennithYattare/ZennithYattare.github.io/master/socmedp/images/160062610033392493.png" title="From Noun Project">
 						<strong>Click Media</strong>
 					</a>
-					<button class="navbar-toggler collapsed" type="button">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-				</div>
+					
+					<div class="topnav">
+  					<a href="#home" class="active"></a>
+  					<div id="myLinks">
+    						<a href="#helpcenter">Help Center</a>
+    						<a href="#settings">Settings</a>
+    						<a href="#logout">Log out</a>
+  					</div>
+  					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    						<i class="fa fa-bars"></i>
+  					</a>
+					</div>
+
+					<div style="padding-left:16px">
+  
+					</div>			 
 			</div>
 		</header>
+		
+		<script>
+		function myFunction() {
+  			var x = document.getElementById("myLinks");
+  			if (x.style.display === "block") {
+    				x.style.display = "none";
+  			} else {
+    				x.style.display = "block";
+  			}
+		}
+		</script>
+  	
+			
 		<main role="main">
 			<section class="jumbotron text-center bgcolor">
 			<div class="container">
